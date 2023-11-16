@@ -7,7 +7,6 @@ app.use('/', express.static('public'));
 app.use(express.json());
 
 const { BasisTheory } = require('@basis-theory/basis-theory-js');
-const express = require('express');
 const Stripe = require('stripe');
 
 const SERVER_KEY = 'key_CYesZCWsn3NB7eC6f1ktkc';
